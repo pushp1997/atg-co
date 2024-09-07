@@ -23,7 +23,7 @@ const Footer: React.FC = () => (
             <h4 className="text-lg font-semibold mb-2">Contact Us</h4>
             <p className="text-gray-400">
               New Delhi, India<br />
-              info@atgco.com<br />
+              atgco.cs@gmail.com<br />
               Ph. Office: <a href="tel:+911123549822">+91-1123549822</a><br />
               Mobile: <a href="tel:+919711603579">+91-9711603579</a>, <a href="tel:+919643895444">+91-9643895444</a>
             </p>
