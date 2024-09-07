@@ -1,11 +1,16 @@
 import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import LandingPage from './LandingPage';
+import ServicesPage from './ServicesPage';
 
 const App: React.FC = () => {
   return (
-    <div className="App">
-      <LandingPage />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<LandingPage />} />
+        <Route path="/services" element={<ServicesPage />} />
+      </Routes>
+    </Router>
   );
 }
 
