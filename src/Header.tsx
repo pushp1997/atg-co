@@ -34,9 +34,9 @@ const Header: React.FC = () => {
           <div className="md:hidden mt-4 space-y-2">
             <Link to="/" className="block"><Button variant="ghost" className="w-full justify-start">Home</Button></Link>
             <Link to="/services" className="block"><Button variant="ghost" className="w-full justify-start">Services</Button></Link>
-            <Link to="/about" className="block"><Button variant="ghost" className="w-full justify-start">Home</Button></Link>
-            <Link to="/team" className="block"><Button variant="ghost" className="w-full justify-start">Services</Button></Link>
-            <Link to="/contact" className="block"><Button variant="ghost" className="w-full justify-start">Home</Button></Link>
+            <Link to="/about" className="block"><Button variant="ghost" className="w-full justify-start">About</Button></Link>
+            <Link to="/team" className="block"><Button variant="ghost" className="w-full justify-start">Team</Button></Link>
+            <Link to="/contact" className="block"><Button variant="ghost" className="w-full justify-start">Contact</Button></Link>
           </div>
         )}
       </nav>
