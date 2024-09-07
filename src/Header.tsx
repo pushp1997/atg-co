@@ -9,7 +9,7 @@ const Header: React.FC = () => (
         <div className="space-x-4">
             <Link to="/"><Button variant="ghost">Home</Button></Link>
             <Link to="/services"><Button variant="ghost">Services</Button></Link>
-            <Button variant="ghost">About</Button>
+            <Link to="/about"><Button variant="ghost">About</Button></Link>
             <Button variant="ghost">Team</Button>
             <Button variant="ghost">Contact</Button>
         </div>
