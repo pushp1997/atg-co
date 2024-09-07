@@ -1,7 +1,7 @@
 {
   "name": "atg-co",
   "version": "0.1.0",
-  "homepage": "https://pushp1997.github.io/atg-co",
+  "homepage": "https://atgco.in",
   "private": true,
   "dependencies": {
     "@radix-ui/react-accordion": "^1.2.0",
