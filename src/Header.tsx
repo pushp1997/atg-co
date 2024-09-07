@@ -10,7 +10,7 @@ const Header: React.FC = () => (
             <Link to="/"><Button variant="ghost">Home</Button></Link>
             <Link to="/services"><Button variant="ghost">Services</Button></Link>
             <Link to="/about"><Button variant="ghost">About</Button></Link>
-            <Button variant="ghost">Team</Button>
+            <Link to="/team"><Button variant="ghost">Team</Button></Link>
             <Button variant="ghost">Contact</Button>
         </div>
         </nav>

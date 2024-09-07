@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Button } from './components/ui/button';
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from './components/ui/card';
 import { ArrowRight, CheckCircle, Users, TrendingUp, Briefcase, Globe, Shield, Book } from 'lucide-react';
@@ -11,7 +12,7 @@ const Hero: React.FC = () => (
     <div className="container mx-auto px-6 text-center">
       <h1 className="text-5xl font-bold text-gray-800 mb-4">Empowering Sustainable Business Growth</h1>
       <p className="text-xl text-gray-600 mb-8">Specialized corporate services tailored for your business success since 2003</p>
-      <Button size="lg">Explore Our Services <ArrowRight className="ml-2" /></Button>
+      <Link to="/services"><Button size="lg">Explore Our Services <ArrowRight className="ml-2" /></Button></Link>
     </div>
   </section>
 );
