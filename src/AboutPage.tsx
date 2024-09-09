@@ -21,7 +21,7 @@ const AboutPage: React.FC = () => (
             <p className="mb-4">
                 M/S. ATG & CO., a Practicing Company Secretaries firm located in New Delhi, established in 2003 is a peer- reviewed firm with more than two
                 decades of rendering specialized services and dealing with various authorities like the Registrar of Companies (ROC), National Company Law
-                Tribunal (NCLT), Ministry of Company Aairs (MCA), Securities & Exchange Board of India (SEBI), Reserve Bank of India (RBI) and various
+                Tribunal (NCLT), Ministry of Company Affairs (MCA), Securities & Exchange Board of India (SEBI), Reserve Bank of India (RBI) and various
                 other authorities and institutions, it has established long-lasting and highly valued relationship with clients.
             </p>
             <p className="mb-4">
