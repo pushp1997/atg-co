@@ -1,7 +1,7 @@
 import React from 'react';
+import { motion } from 'framer-motion';
 import { Card, CardContent } from './components/ui/card';
-import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from './components/ui/accordion';
-import { Users, Clock, CheckCircle, Building } from 'lucide-react';
+import { Clock, CheckCircle, Building } from 'lucide-react';
 import Footer from './Footer';
 import Header from './Header';
 
@@ -13,7 +13,7 @@ const AboutPage: React.FC = () => (
     <main className="container mx-auto px-6 py-8">
       <h2 className="text-3xl font-bold text-center text-gray-800 mb-8">About ATG&Co</h2>
       <section className="mb-12">
-        <h2 className="text-2xl font-bold mb-4 flex items-center">
+        <h2 className="text-2xl font-bold mb-4 flex items-center text-purple-600">
           <Building className="mr-2" />
           Company Overview
         </h2>
@@ -42,7 +42,7 @@ const AboutPage: React.FC = () => (
       </section>
 
       <section className="mb-12">
-        <h2 className="text-2xl font-bold mb-4 flex items-center">
+        <h2 className="text-2xl font-bold mb-4 flex items-center text-purple-600">
           <Clock className="mr-2" />
           Our Experience
         </h2>
@@ -59,7 +59,7 @@ const AboutPage: React.FC = () => (
       </section>
 
       <section>
-        <h2 className="text-2xl font-bold mb-4 flex items-center">
+        <h2 className="text-2xl font-bold mb-4 flex items-center text-purple-600">
           <CheckCircle className="mr-2" />
           Why Choose Us
         </h2>

@@ -1,4 +1,5 @@
 import React from 'react';
+import { motion } from 'framer-motion';
 import { Card, CardHeader, CardTitle, CardContent } from './components/ui/card';
 import { 
   FileText,
@@ -29,21 +30,23 @@ interface ServiceProps {
 }
 
 const ServiceCard: React.FC<ServiceProps> = ({ icon: Icon, title, items }) => (
-  <Card className="h-full">
-    <CardHeader>
-      <CardTitle className="flex items-center text-xl">
-        <Icon className="mr-2 h-5 w-5" />
-        {title}
-      </CardTitle>
-    </CardHeader>
-    <CardContent>
-      <ul className="list-disc pl-5 space-y-1">
-        {items.map((item, index) => (
-          <li key={index} className="text-sm">{item}</li>
-        ))}
-      </ul>
-    </CardContent>
-  </Card>
+  <motion.div whileHover={{ scale: 1.05 }} transition={{ duration: 0.2 }}>
+    <Card className="h-full bg-white bg-opacity-90 shadow-lg hover:shadow-xl transition-shadow duration-300">
+      <CardHeader>
+        <CardTitle className="flex items-center text-xl text-purple-600">
+          <Icon className="mr-2 h-5 w-5" />
+          {title}
+        </CardTitle>
+      </CardHeader>
+      <CardContent>
+        <ul className="list-disc pl-5 space-y-1">
+          {items.map((item, index) => (
+            <li key={index} className="text-sm">{item}</li>
+          ))}
+        </ul>
+      </CardContent>
+    </Card>
+  </motion.div>
 );
 
 const ServicesPage: React.FC = () => {
@@ -265,8 +268,8 @@ const ServicesPage: React.FC = () => {
       <Header />
       
       <main className="container mx-auto px-6 py-8">    
-        <h2 className="text-3xl font-bold text-center text-gray-800 mb-8">Our Services</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <h2 className="text-4xl font-bold text-center text-gray-800 mb-12">Our Services</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service, index) => (
             <ServiceCard key={index} {...service} />
           ))}

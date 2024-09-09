@@ -2,7 +2,6 @@ import React from 'react';
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from './components/ui/card';
 import { Avatar, AvatarFallback } from './components/ui/avatar';
 import { Badge } from './components/ui/badge';
-import {GraduationCap } from 'lucide-react';
 import Footer from './Footer';
 import Header from './Header';
 
@@ -161,27 +160,25 @@ const teamMembers: TeamMember[] = [
 ];
 
 const TeamMemberCard: React.FC<{ member: TeamMember }> = ({ member }) => (
-  <Card className="mb-8 shadow-md hover:shadow-lg transition-shadow duration-300">
+  <Card className="mb-6">
     <CardHeader>
-      <div className="flex items-center space-x-6">
-        <Avatar className="w-24 h-24">
+      <div className="flex items-center space-x-4">
+        <Avatar className="w-20 h-20">
           <AvatarFallback>{member.name.split(' ').map(n => n[0]).join('')}</AvatarFallback>
         </Avatar>
         <div>
-          <CardTitle className="text-2xl font-bold text-purple-600">{member.name}</CardTitle>
-          <CardDescription className="text-lg">{member.position}</CardDescription>
+          <CardTitle>{member.name}</CardTitle>
+          <CardDescription>{member.position}</CardDescription>
         </div>
       </div>
     </CardHeader>
     <CardContent>
-      <div className="mb-4 text-gray-700">
+      <div className="mb-4">
         {member.description}
       </div>
       <div className="flex flex-wrap gap-2">
         {member.qualifications.map((qual, index) => (
-          <Badge key={index} className="text-sm bg-purple-100 text-black hover:text-gray-100">
-            {qual}
-          </Badge>
+          <Badge key={index} variant="secondary">{qual}</Badge>
         ))}
       </div>
     </CardContent>
@@ -189,13 +186,13 @@ const TeamMemberCard: React.FC<{ member: TeamMember }> = ({ member }) => (
 );
 
 const TeamPage: React.FC = () => (
-  <div className="min-h-screen bg-gray-100 bg-repeat-x bg-top">
+  <div className="min-h-screen bg-gray-100">
     <Header />
     
-    <main className="container mx-auto px-6 py-12">
-      <h2 className="text-4xl font-bold text-center text-gray-800 mb-4">Meet Our Team</h2>
-      <p className="mb-12 text-xl text-gray-600 text-center">
-        At ATG&Co, our team of experienced professionals is dedicated to providing excellence in corporate services.
+    <main className="container mx-auto px-6 py-8">
+      <h2 className="text-3xl font-bold text-center text-gray-800 mb-8">Meet Our Team</h2>
+      <p className="mb-8 text-lg text-gray-600">
+        At ATG&Co, our team of experienced professionals is dedicated to providing excellence in corporate services. 
         Each member brings unique expertise and a wealth of experience to serve our clients' needs.
       </p>
       
