@@ -68,13 +68,17 @@ const ContactPage: React.FC = () => (
             </CardContent>
           </Card>
         
-          <Link to="https://www.google.com/maps/place/718,+Joshi+Rd,+Block+A,+Karol+Bagh,+New+Delhi,+Delhi,+110005/@28.6499802,77.1984259,19z/" className="block mb-8 no-underline">
+          <Link to="https://maps.app.goo.gl/Vhj5xatj66AqSUA68" className="block mb-8 no-underline">
             <Card>
               <CardHeader>
                 <CardTitle>Our Location</CardTitle>
               </CardHeader>
               <CardContent>
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.997134675735!2d77.22045507565282!3d28.629847975666248!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd36abb11669%3A0xa4c2f624ef5006b0!2sNew%20Delhi%20House!5e0!3m2!1sen!2sie!4v1751573086073!5m2!1sen!2sie" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  <img 
+                      src="/location.png" 
+                      alt="Map of ATG&Co location" 
+                      className="w-full h-64 object-cover rounded-lg"
+                  />
               </CardContent>
             </Card>
           </Link>
