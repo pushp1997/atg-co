@@ -22,11 +22,11 @@ const ContactInfo: React.FC = () => (
   <div className="space-y-4">
     <div className="flex items-center">
       <MapPin className="mr-2" />
-      <p>101, Sitaram Mansion, 718/21, Joshi Road, Karol Bagh, New Delhi-110005</p>
+      <p>1008, 10th Floor, New Delhi House, Barakhamba Road, Connaught Place, New Delhi - 110001</p>
     </div>
     <div className="flex items-center">
       <Phone className="mr-2" />
-      <p><a href="tel:+911123549822">+91-1123549822</a>, <a href="tel:+919711603579">+91-9711603579</a>, <a href="tel:+919643895444">+91-9643895444</a></p>
+      <p><a href="tel:+911143103766">011-43103766</a>/<a href="tel:+911143103803"43103803></a>, <a href="tel:+919711603579">+91-9711603579</a>, <a href="tel:+919643895444">+91-9643895444</a></p>
     </div>
     <div className="flex items-center">
       <Mail className="mr-2" />
@@ -74,11 +74,7 @@ const ContactPage: React.FC = () => (
                 <CardTitle>Our Location</CardTitle>
               </CardHeader>
               <CardContent>
-                  <img 
-                      src="/location.png" 
-                      alt="Map of ATG&Co location" 
-                      className="w-full h-64 object-cover rounded-lg"
-                  />
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.997134675735!2d77.22045507565282!3d28.629847975666248!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd36abb11669%3A0xa4c2f624ef5006b0!2sNew%20Delhi%20House!5e0!3m2!1sen!2sie!4v1751573086073!5m2!1sen!2sie" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
               </CardContent>
             </Card>
           </Link>
