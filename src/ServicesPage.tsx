@@ -71,7 +71,6 @@ const ServicesPage: React.FC = () => {
       icon: Gavel,
       title: "Legal Services",
       items: [
-        "Our Legal Services are housed under ATG & Co. headed by Ms. Pooja Anand",
         "Insolvency and Bankruptcy Code, 2016",
         "Litigation in Original and Appellate Jurisdictions",
         "Non-litigation services such as drafting & vetting of documents, legal opinions, legal audits, Corporate Legal consultancy",
@@ -90,20 +89,6 @@ const ServicesPage: React.FC = () => {
         "Restructuring of fund",
         "Setting up Venture Capital/AIF",
         "Asset Management Company incorporation"
-      ]
-    },
-    {
-      icon: Users,
-      title: "Placement Services",
-      items: [
-        "Our HR services are lead by Mr. Mukul Tyagi.",
-        " Mr. Mukul Tyagi, as it's Managing Director alongwith the expertise team from last 20 years recruitments, having expertise placements and secondment of professionals such as:",
-        "Company Secretary(Qualified, Semi-qualified, trainees)",
-        "Lawyers(Advocates, Counsel, Interns)",
-        "Chartered Accountants (Qualified, Semi-qualified, Accountants)",
-        "Chief Financial Officer",
-        "Chief Executive Officer",
-        "Directorships (Women Director, Independent Director, Non-executive Director)"
       ]
     },
     {
