@@ -26,7 +26,7 @@ const ContactInfo: React.FC = () => (
     </div>
     <div className="flex items-center">
       <Phone className="mr-2" />
-      <p><a href="tel:+911143103766">011-43103766</a>/<a href="tel:+911143103803"43103803></a>, <a href="tel:+919711603579">+91-9711603579</a>, <a href="tel:+919643895444">+91-9643895444</a></p>
+      <p><a href="tel:+911143103766">011-43103766</a>/<a href="tel:+911143103803">43103803</a>, <a href="tel:+919711603579">+91-9711603579</a>, <a href="tel:+919643895444">+91-9643895444</a></p>
     </div>
     <div className="flex items-center">
       <Mail className="mr-2" />
