@@ -22,9 +22,11 @@ const Footer: React.FC = () => (
           <div className="w-full md:w-1/4">
             <h4 className="text-lg font-semibold mb-2">Contact Us</h4>
             <p className="text-gray-400">
-              New Delhi, India<br />
+              1008, 10th Floor, New Delhi House<br />
+              Barakhamba Road, Connaught Place,<br />
+              New Delhi - 110001<br />
               atgco.cs@gmail.com<br />
-              Ph. Office: <a href="tel:+911123549822">+91-1123549822</a><br />
+              Ph. Office: <a href="tel:+911143103766">011-43103766</a>/<a href="tel:+911143103803">43103803</a><br />
               Mobile: <a href="tel:+919711603579">+91-9711603579</a>, <a href="tel:+919643895444">+91-9643895444</a>
             </p>
           </div>
